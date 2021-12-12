@@ -48,7 +48,7 @@ const Login = () => {
                                 placeholder="Enter Your PassWord"
                             />
 
-                            <Button className="btn-info " type="submit" >Login</Button>
+                            <Button className="btn-info " to="/home" type="submit" >Login</Button>
                             <h4 className="text-muted my-4">Dont have Account pls <Link to="/registar"> SIGN Up</Link></h4>
                         </form>
 

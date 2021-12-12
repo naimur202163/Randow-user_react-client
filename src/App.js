@@ -11,6 +11,7 @@ import Register from './componets/Login/Register/Register';
 import UserDetails from './componets/UserDetails/UserDetails';
 import AuthProvider from './context/AuthProvider/AuthProvider';
 import Login from './componets/Login/Login/Login';
+import PrivateRoute from './componets/Login/PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div >
