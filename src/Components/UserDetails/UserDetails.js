@@ -33,10 +33,10 @@ const UserDetails = () => {
                 </div>
                 <div className="col-lg-5 col-sm-12 my-5" >
                     <div className="my-5">
-                        <h2>Order Now</h2>
+                        <h2>Hire Now</h2>
                         <div className="mx-auto my-5">
                             {/* <button onClick={handleButton} className="btn btn-info">Order Now</button> */}
-                            <Link to="/orderdetails"> <button className="btn btn-info">My-orders</button>
+                            <Link to="/orderdetails"> <button className="btn btn-info">Heires</button>
                             </Link>
 
                         </div>
