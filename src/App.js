@@ -6,17 +6,25 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Home from './Components/Home/Home';
-import UserDetails from './Components/UserDetails/UserDetails';
+import Home from './componets/Home/Home';
+import Register from './componets/Login/Register/Register';
+import UserDetails from './componets/UserDetails/UserDetails';
+import AuthProvider from './context/AuthProvider/AuthProvider';
+import Login from './componets/Login/Login/Login';
 function App() {
   return (
     <div >
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/userdetails/:userId" element={<UserDetails />} />
-        </Routes>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/userdetails/:userId" element={<UserDetails />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/registar" element={<Register />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
 
     </div>
   );
