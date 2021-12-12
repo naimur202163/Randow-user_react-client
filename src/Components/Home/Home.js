@@ -34,7 +34,7 @@ const Home = () => {
                                                 <button className="btn btn-success m-2">update</button>
                                             </Link>
                                             <Link className="ms-5" to={`/userdetails/${user.login.uuid}`}>
-                                                <button className="btn btn-success m-2">Details</button>
+                                                <button className="btn btn-success m-2">Hire Employe</button>
                                             </Link>
 
                                         </div>
